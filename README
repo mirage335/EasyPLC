@@ -1,0 +1,44 @@
+Copyright (C) 2013 mirage335
+See the end of the file for license conditions.
+See license.txt for EasyPLC license conditions.
+
+Generic Programmable Logic Controller (PLC) ecosystem.
+
+__Usage__
+The GenericMainboard locally offers USB, ISP, and UART connections. These may be bridged to other network gateways including:
+*) Desktop/Laptop Computer
+*) Raspberry Pi
+*) OpenWRT/Linux Router
+*) Zigbee
+*) Amateur Radio Gear
+
+DB25F (parallel port) offers I2C and eleven ADC/IO pins. Simple peripherials may directly engage sensorimotor capabilities on the parallel port. More advanced peripherials may use the parallel port I2C connectivity with additional processors.
+
+Additional peripherials are planned, including:
+Parallel Port Hub
+Stepper Driver
+Camera
+
+__Design__
+USA companies provide all parts in these schematics.
+
+__Safety__
+Although EasyPLC components may be quite reliable, they do not automatically confer the redundancy and accuraccy required of safety-critical systems.
+
+End users must always carefully consider failure points and reliability requirements.
+
+__Copyright__
+This file is part of EasyPLC.
+
+EasyPLC is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+EasyPLC is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with EasyPLC.  If not, see <http://www.gnu.org/licenses/>.
